@@ -1,0 +1,86 @@
+body {
+    background-image: url("https://image.freepik.com/free-photo/background-of-the-bamboo-surface-of-mat_1339-4945.jpg");
+  }
+  h1 {
+    color: rgb(85, 43, 0);
+    text-align: center;
+    font-size: 56px;
+    font-family: Forte;
+    font-weight: normal;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 236, 217);
+  }
+  
+  h2 {
+    color: rgb(127, 64, 0);
+    margin-top: 20px !important;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgb(255, 236, 217);
+  }
+  
+  p {
+    font-size: 24px;
+    font-family: 'Bradley Hand ITC';
+    font-weight: bold;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgb(255, 236, 217);
+  }
+  
+#list{
+    color: rgb(85, 0, 0);
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgb(255, 236, 217);
+}
+  
+  img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    background-color: rgb(255, 236, 217);
+  }
+
+  #chicken{
+    border-color: grey;
+    height:33%;
+    width:33%;
+    border-style:dashed;
+    border-width: 5px;
+    border-color:mediumseagreen;
+    border-radius: 180px;
+  }
+  @media (min-width: 801px) {  
+    h1{
+      size: 40px;
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width:800px) {
+    img {
+      width: 100%
+    }
+    h2{
+      size: 20px;
+      font-size: 16px;
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+    p{
+      padding: 10px;
+      margin: auto;
+      background-color: transparent;
+      font-size: 17px;
+    }
+    #list{
+      font-size: 15px;
+    }
+  }
